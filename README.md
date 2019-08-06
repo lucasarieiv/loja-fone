@@ -28,3 +28,8 @@ Usado para agrupar cabeçalhos.
 
 - `nav` - Navegação - 
 Usado para agrupar tags usadas para nagevação de conteúdos
+
+# CSS
+É uma linguagem de estilo, isso que dizer que ela tem as seguintes responsabilidades:
+
+- Visual
