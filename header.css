@@ -27,3 +27,13 @@ a {
 a:last-child {
     margin-right: 0;
 }
+
+button {
+    border: none;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Arial, "Roboto", sans-serif;
+    color: #fff;
+    background-color: #252c41;
+}
