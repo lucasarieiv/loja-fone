@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
 header {
     background-color: #e24647;
     color: #fff;
@@ -29,7 +36,10 @@ a:last-child {
 }
 
 button {
+    display: block;
+    margin: 0 auto;
     border: none;
+    border: solid 2px #252c41;
     width: 200px;
     height: 60px;
     font-size: 20px;
