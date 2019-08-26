@@ -1,13 +1,21 @@
 .description-store {
     font-family: "Roboto", Arial, sans-serif;
     color: #fff;
-    overflow: hidden;
+    display: inline-block;
+    margin-top: 140px;
+}
+
+.fone-store {
+    display: inline-block;
+    background-color: #fff;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin: 0 157px 0px 0px;
 }
 
 .description-title {
     font-size: 25px;
     color: inherit;
-    margin-top: 140px;
 }
 
 .description-infor {
@@ -48,7 +56,7 @@
 }
 
 .description-button {
-    display: inline;
+    display: inline-block;
     margin-top: 98px;
 }
 
