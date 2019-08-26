@@ -1,0 +1,51 @@
+.description-store {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #fff;
+}
+
+.description-title {
+    font-size: 25px;
+    color: inherit;
+    margin-top: 140px;
+}
+
+.description-infor {
+    font-size: 20px;
+    color: inherit;
+    font-family: inherit;
+}
+
+.description-infor.-evaluation {
+    margin-top: 100px;
+}
+
+.description-infor.-freight {
+    margin-top: 28px;
+}
+
+.description-infor.-price {
+    margin-top: 26px;   
+}
+
+.description-content {
+    font-size: 18px;
+    color: inherit;
+    font-family: inherit;
+    margin-top: 73px;
+    width: 553px;
+}
+
+.description-more {
+    margin-top: 26px;
+}
+
+.more {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+    font-size: 18px;
+}
+
+.description-button {
+    margin-top: 98px;
+}
