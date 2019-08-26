@@ -1,6 +1,7 @@
 .description-store {
     font-family: "Roboto", Arial, sans-serif;
     color: #fff;
+    overflow: hidden;
 }
 
 .description-title {
@@ -47,5 +48,10 @@
 }
 
 .description-button {
+    display: inline;
     margin-top: 98px;
+}
+
+.description-button.-first {
+    margin-right: 40px;
 }
