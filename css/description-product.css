@@ -9,7 +9,15 @@
 .description-product > .title {
     font-size: 25px;
     color: inherit;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.description-product > .evaluation {
+    margin-bottom: 25px;
+}
+
+.description-product .star {
+    margin-right: 8px;
 }
 
 .description-product > .item {
