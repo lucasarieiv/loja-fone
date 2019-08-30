@@ -18,6 +18,10 @@
     margin-bottom: 10px;
 }
 
+.description-product img[alt="estrela"] {
+    cursor: pointer;
+}
+
 .description-product > .item.-star + .item {
     margin-left: 7px;
 }
