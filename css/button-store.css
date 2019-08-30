@@ -12,6 +12,7 @@
     margin: 0px;
     text-decoration: none;
     border: none;
+    transition: 300ms;
 }
 
 .button-store.-second {
@@ -31,4 +32,14 @@
     border: none;
     color: inherit;
     text-decoration: inherit;
+}
+
+.buttons > button:hover {
+    color: #e24647;
+    background-color: #fff;
+}
+
+.buttons > a:hover {
+    color: #252c41;
+    background-color: #fff;
 }
