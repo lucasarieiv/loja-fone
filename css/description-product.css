@@ -12,14 +12,34 @@
     margin-bottom: 50px;
 }
 
+.description-product > .item.-heart {
+    position: absolute;
+    transform: translateX(-100%);
+    top: 8px;
+    left: -47px;
+    transform: scale(1);
+    cursor: pointer;
+    transition: transform 100ms ease-in;
+}
+
+.description-product > .item.-heart:hover {
+    transform: scale(1.2);
+}
 
 .description-product > .item.-star {
     margin-right: 8px;
     margin-bottom: 10px;
 }
 
+
 .description-product img[alt="estrela"] {
     cursor: pointer;
+    transform: scale(1);
+    transition: transform 100ms ease-in;
+}
+
+.description-product img[alt="estrela"]:hover {
+    transform: scale(1.15);
 }
 
 .description-product > .item.-star + .item {

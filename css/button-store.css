@@ -12,7 +12,8 @@
     margin: 0px;
     text-decoration: none;
     border: none;
-    transition: 300ms;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
 }
 
 .button-store.-second {
@@ -22,7 +23,6 @@
     width: 218px;
     line-height: 56px;
     margin-right: 38px;
-    cursor: pointer;
 }
 
 .button-store > button,
@@ -34,12 +34,16 @@
     text-decoration: inherit;
 }
 
-.buttons > button:hover {
-    color: #e24647;
+.button-store.-second:hover {
+    color: #252c41;
     background-color: #fff;
 }
 
+.button-store.-second:active {
+    transform: scale(0.9);
+}
+
 .buttons > a:hover {
-    color: #252c41;
+    color: #e24647;
     background-color: #fff;
 }
