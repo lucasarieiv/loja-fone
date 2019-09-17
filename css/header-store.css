@@ -40,13 +40,25 @@
 
 .header-store .action {
     text-decoration: none;
+    position: relative;
     color: inherit;
     margin-right: 60px;
     vertical-align: middle;
 }
 
-.header-store .action:hover {
-    border-bottom: 1px solid #fff;
+.header-store .action::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    bottom: -5px;
+    background-color: #fff;
+    width: 0;
+    height: 2px;
+    transition: width 300ms ease-in;
+}
+
+.header-store .action:hover::before {
+    width: 100%;
 }
 
 .header-store .action.-last {
