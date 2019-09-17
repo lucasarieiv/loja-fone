@@ -45,6 +45,10 @@
     vertical-align: middle;
 }
 
+.header-store .action:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .header-store .action.-last {
     margin-right: 0;
 }
