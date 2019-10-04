@@ -7,17 +7,16 @@
 
 
 const $heart = window.document.querySelector(".-heart")
-
 const $addCart = window.document.querySelector(".-second")
+const $cart = window.document.querySelector('.-last')
 
 $addCart.addEventListener("click", handleCart)
 $heart.addEventListener("click", handleClick)
 
-
 function handleClick() {
-    console.log("AEE")
 }
 
 function handleCart() {
-    alert("Funcionou - TOP TOP TOP")
+    // alert("Funcionou - TOP TOP TOP")
+    $cart.textContent = 'Carrinho (11)'
 }
