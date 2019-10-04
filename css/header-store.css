@@ -18,6 +18,7 @@
     font-size: 21px;
     font-family: 'Segoe UI', "Roboto", sans-serif;
     float: right;
+    color: inherit;
 }
 
 .header-store input[type="search"] {
@@ -31,6 +32,10 @@
     width: 358px;
     margin-right: 65px;
     vertical-align: bottom;
+}
+
+.header-store input[type="search"]::placeholder {
+    color: inherit;
 }
 
 
@@ -68,11 +73,14 @@
 @media (max-width: 1310px) {
     .header-store {
         padding-right: 60px;
-        margin-bottom: 80px;
     }
 }
 
 @media (max-width: 1235px) {
+    .header-store {
+        margin-bottom: 70px;
+    }
+
     .header-store > .title {
         float: none;
         text-align: center;
