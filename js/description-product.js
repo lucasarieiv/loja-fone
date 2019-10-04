@@ -9,10 +9,15 @@
 const $heart = window.document.querySelector(".-heart")
 
 const $addCart = window.document.querySelector(".-second")
-console.log($addCart)
 
+$addCart.addEventListener("click", handleCart)
 $heart.addEventListener("click", handleClick)
+
 
 function handleClick() {
     console.log("AEE")
+}
+
+function handleCart() {
+    alert("Funcionou - TOP TOP TOP")
 }
