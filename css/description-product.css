@@ -23,9 +23,9 @@
 }
 
 .description-product > .item.-active {
-    background-color: #fff;
-    /* background-image: url('/img/heart-active.png'); */
-    /* background-repeat: no-repeat; */
+    /* background-color: #fff; */
+    background-image: url('/img/heart-active.png');
+    background-repeat: no-repeat;
 }
 
 .description-product > .item.-heart:hover {
@@ -50,6 +50,12 @@
 
 .description-product > .item.-star + .item {
     margin-left: 7px;
+}
+
+.description-product .stars.-active {
+    background-image: url(/img/star-active.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .description-product > .item {
@@ -116,7 +122,6 @@
     .description-product > .item.-number {
         padding-top: 4px;
     }
-
 }
 
 @media (max-width: 720px) {
