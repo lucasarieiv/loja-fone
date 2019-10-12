@@ -22,6 +22,12 @@
     transition: transform 100ms ease-in;
 }
 
+.description-product > .item.-active {
+    background-color: #fff;
+    /* background-image: url('/img/heart-active.png'); */
+    /* background-repeat: no-repeat; */
+}
+
 .description-product > .item.-heart:hover {
     transform: scale(1.2);
 }
@@ -86,6 +92,7 @@
 
 @media (max-width: 1310px) {
     .description-product {
+        position: relative;
         display: block;
         width: 50%;
         min-width: 655px;
@@ -95,6 +102,10 @@
     .description-product > .title {
         font-size: 35px;
         text-align: center;
+    }
+
+    .description-product > .item.-heart {
+        left: -500px;
     }
 
     .description-product > .item.-star {
