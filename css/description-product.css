@@ -147,3 +147,10 @@
         min-width: auto;
     }
 }
+
+@media (max-width: 470px) {
+    .description-product > .item.item.-heart {
+        top: 230px;
+        left: 280px;
+    }
+}
