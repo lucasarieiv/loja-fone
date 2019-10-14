@@ -20,12 +20,20 @@
     transform: scale(1);
     cursor: pointer;
     transition: transform 100ms ease-in;
+    width: 33px;
+    height: 29px;
 }
 
-.description-product > .item.-active {
-    /* background-color: #fff; */
-    background-image: url('/img/heart-active.png');
-    background-repeat: no-repeat;
+.description-product > .item.-heart:hover {
+    transform: scale(1.2) translateX(-100%);
+}
+
+.description-product > .item.-active .icon {
+    display: none;
+}
+
+.description-product > .item.-active .icon.-active {
+    display: block;
 }
 
 .description-product > .item.-heart:hover {
@@ -37,7 +45,6 @@
     margin-bottom: 10px;
 }
 
-
 .description-product img[alt="estrela"] {
     cursor: pointer;
     transform: scale(1);
@@ -48,14 +55,20 @@
     transform: scale(1.15);
 }
 
-.description-product > .item.-star + .item {
-    margin-left: 7px;
+.description-product .star {
+    display: inline-block;
 }
 
-.description-product .stars.-active {
-    background-image: url(/img/star-active.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
+.description-product .star.-active > .icon {
+    display: none;
+}
+
+.description-product .star.-active > .-active {
+    display: block;
+}
+
+.description-product > .item + .item {
+    margin-left: 7px;
 }
 
 .description-product > .item {
@@ -93,6 +106,10 @@
 .description-product .action {
     color: inherit;
     text-decoration: none;   
+}
+
+.description-product .icon.-active {
+    display: none;
 }
 
 
