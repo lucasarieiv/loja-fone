@@ -128,7 +128,7 @@
     }
 
     .description-product > .item.-heart {
-        left: -500px;
+        left: 0;
     }
 
     .description-product > .item.-star {
