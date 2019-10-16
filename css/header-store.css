@@ -103,7 +103,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translateX(-88%);
+        transform: translateX(-100%);
         background-color: #fff;
         color: #000;
         transition: transform 200ms linear;
@@ -124,7 +124,16 @@
         display: inline-block;
         width: 45px;
         top: 0;
-        left: 352px;
+        left: 0;
+        transition: transform 200ms linear;
+        cursor: pointer;
+    }
+
+    .header-store .search-icon.-active {
+        transition: all 200ms linear;
+        transform: translateX(352px);
+        background-image: url('/img/close-icon.png');
+        background-size: 35%;
     }
 }
 
