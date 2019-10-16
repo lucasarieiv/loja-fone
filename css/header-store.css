@@ -38,6 +38,11 @@
     color: inherit;
 }
 
+.header-store .search-icon {
+    display: none;
+    height: 40px;
+} 
+
 
 .header-store .action {
     display: inline-block;
@@ -107,6 +112,19 @@
     .header-store input[type="search"].-active {
         transition: transform 200ms cubic-bezier(0, 0, 0.96, 1.26);
         transform: translateX(0%);
+    }
+
+    .header-store .search-icon {
+        background-color: #fff;
+        background-image: url('/img/icon-search.png');
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        position: absolute;
+        display: inline-block;
+        width: 45px;
+        top: 0;
+        left: 352px;
     }
 }
 
