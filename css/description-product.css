@@ -128,7 +128,8 @@
     }
 
     .description-product > .item.-heart {
-        left: 0;
+        left: auto;
+        transform: none;
     }
 
     .description-product > .item.-star {
@@ -148,9 +149,8 @@
     }
 }
 
-@media (max-width: 470px) {
-    .description-product > .item.item.-heart {
-        top: 230px;
-        left: 280px;
+@media (max-width: 475px) {
+    .description-product > .item.-heart {
+        position: static;
     }
 }
