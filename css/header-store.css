@@ -7,6 +7,10 @@
     padding-left: 60px;
 }
 
+.header-store > .menu-hamburguer {
+    display: none;
+}
+
 .header-store > .title {
     font-size: 40px;
     font-family: Arial, "Roboto", sans-serif;
@@ -107,9 +111,22 @@
         margin-right: 10px;
     }
 }
+/* 335px */
+@media (max-width: 400px) {
+    .header-store > .menu-hamburguer {
+        outline: none;
+        display: block;
+        top: 40px;
+        margin: 0 0 0 auto;
+        transform: rotate(0);
+        transition: transform 200ms linear;
+    }
+    
+    .header-store > .menu-hamburguer.-active {
+        transform: rotate(-180deg);
+    }
 
-@media (max-width: 335px) {
-    .header-store .action {
+    .header-store .action.-active {
         display: none;
     }
 }
