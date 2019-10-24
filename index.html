@@ -22,17 +22,19 @@
         <div class="container-store">
             <header class="header-store">
                 <h1 class="title">Logo</h1>
-                <input class="menu-hamburguer" type="image" src="img/menu-hamburguer.png">
+
                 <nav class="navigation">
-                    
-                    <form class="input-search -active">
+                    <form class="input-search ">
                         <input class="content" type="search" placeholder="Busca"><input class="icon -open -active" type="image" src="img/search.png"><!--
                         --><input class="icon -close" type="image" src="img/close-icon.png">
                     </form>
                     
-                    <a class="action -active" href="http://collabcode.training">Produtos</a>
-                    <a class="action -active" href="http://collabcode.training">Serviços</a>
-                    <a class="action -active -last" href="http://collabcode.training">Carrinho (10)</a>
+                    <ul id="menu" class="list">
+                        <li class="item -menu"><a class="menu" href="#menu">Menu</a></li>
+                        <li class="item"><a class="action" href="http://collabcode.training">Produtos</a></li>
+                        <li class="item"><a class="action" href="http://collabcode.training">Serviços</a></li>
+                        <li class="item -last"><a class="action" href="http://collabcode.training">Carrinho (10)</a></li>
+                    </ul>
                 </nav>
             </header>
             
@@ -99,9 +101,9 @@
                 
             </section>
         </div>
+        <script src="js/header-store.js"></script>
         <script src="js/input-search.js"></script>
         <script src="js/description-product.js"></script>
-        <script src="js/menu-hamburguer.js"></script>
         <script src="js/home.js"></script>
     </body>
 </html>
